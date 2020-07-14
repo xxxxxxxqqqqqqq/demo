@@ -2,7 +2,7 @@ package com.example.demo.service.impl.beantestservice;
 
 import com.alibaba.fastjson.JSONObject;
 import com.example.demo.constant.GloabelContant;
-import com.example.demo.service.IBeanService;
+import com.example.demo.service.IBeanSerializationService;
 import com.example.demo.service.ITestApi;
 import com.example.demo.util.ApplicationContextUtil;
 import com.example.demo.util.BeanUtil;
@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
  * @Date 16/04/2020 1:35 上午
  */
 @Service
-public class BeanServiceImpl implements IBeanService {
+public class BeanSerializationServiceImpl implements IBeanSerializationService {
 
     @Value("${beanFilepath}")
     private String beanFilepath;

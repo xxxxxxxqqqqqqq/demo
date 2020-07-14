@@ -12,4 +12,8 @@ public interface GloabelContant {
     String NAME = "name";
     String OK = "ok";
     String ERROR = "error";
+
+    String beanName = "beanName";
+    String beanCode = "beanCode";
+
 }

@@ -3,11 +3,12 @@ package com.example.demo.service;
 import com.alibaba.fastjson.JSONObject;
 
 /**
- * @Description bean测试业务
+ * @Description 第一种解决方案
+ *      将对象序列化成为文件加载到IOC容器
  * @Author liz
  * @Date 16/04/2020 1:33 上午
  */
-public interface IBeanService {
+public interface IBeanSerializationService {
 
     /**
      * IOC容器中构建bean
